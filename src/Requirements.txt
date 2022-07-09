@@ -1,0 +1,3 @@
+npm install antd
+npm install react-router-dom@6
+npm install --save @ant-design/icons

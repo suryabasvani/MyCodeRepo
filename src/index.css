@@ -1,0 +1,9 @@
+.menu_item_inactive{
+    color:gold;
+}
+.menu_item_active{
+    color:white;
+}
+.active{
+    background-color: rgb(11, 132, 206);
+}
