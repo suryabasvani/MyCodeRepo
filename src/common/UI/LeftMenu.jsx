@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { LaptopOutlined, AimOutlined } from "@ant-design/icons";
 import { Col, Row } from "antd";
 
-function NavLink({ to, className, ...rest }) {
-  return <Link className="surya" to={to} {...rest} />;
-}
+// function NavLink({ to, className, ...rest }) {
+//   return <Link className="surya" to={to} {...rest} />;
+// }
 
 const LeftMenu = () => {
   return (

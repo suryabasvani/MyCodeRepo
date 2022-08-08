@@ -1,4 +1,4 @@
-export const doctorsData = [
+export const DoctorsData = [
   {
     id: "DOTG1",
     email: "doctoreamil1@gmail.com",

@@ -37,7 +37,7 @@ const Doctors = () => {
 
   const AddDoctorHandler = () => {
     //event.preventdefault(admin/doctors/add_doctor);
-    navigate("/admin/doctors/add_doctor");
+    navigate("/admin/doctors/add");
   };
 
   return (
@@ -46,7 +46,11 @@ const Doctors = () => {
         <Col span={20}>Doctor Search </Col>
         <Col span={4}>
           <Button
-            style={{ color: "#0b84ce" }}
+            style={{
+              color: "#fff",
+              backgroundColor: "#009cfc",
+              borderRadius: 5,
+            }}
             onClick={() => {
               AddDoctorHandler();
             }}
