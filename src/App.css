@@ -21,4 +21,20 @@
     background: #fff;
   }
 
-  
+  .market .ant-card-body {
+    padding: 10px;
+    font-weight: normal;    
+}
+.market .ant-card-body .ant-card-meta-title{
+  font-size: 11px;
+}
+
+.market .ant-card-meta-detail{
+  width: 100%;
+}
+.market .ant-rate{
+  font-size: 16px;
+}
+.market .ant-rate-star:not(:last-child){
+  margin-right: 2px;
+}

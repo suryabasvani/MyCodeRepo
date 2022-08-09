@@ -99,6 +99,21 @@ const AdminMenu = () => {
           <FileAddFilled /> Patients
         </NavLink>
       </Col>
+      <Col
+        span={24}
+        style={{ ...styles.menu_item }}
+        className={{
+          active: /pharmacy/.test(pathname) ? true : false,
+        }}
+      >
+        <NavLink
+          activeclassname="menu_item_active"
+          inactiveclassname="menu_item_inactive"
+          to="/admin/pharmacy/list"
+        >
+          <FileAddFilled /> Pharmacy
+        </NavLink>
+      </Col>
     </Row>
   );
 };
