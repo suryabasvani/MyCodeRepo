@@ -30,7 +30,7 @@ const Cart = () => {
                         className="comment-action"
                         style={{ margin: "0 5px", color: "black" }}
                       >
-                        : {((100 * item.discount) / item.mrp).toFixed(2)}
+                        : {item.cost.toFixed(2)}
                         Rs
                       </span>
                       <DeleteOutlined
