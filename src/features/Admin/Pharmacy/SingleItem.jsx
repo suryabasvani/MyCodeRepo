@@ -56,7 +56,7 @@ const SingleItem = ({ item }) => {
                   </span>
                   |
                   <span className="comment-action" style={{ margin: "0 5px" }}>
-                    Cost {((100 * item.discount) / item.mrp).toFixed(2)}
+                    Cost {item.cost.toFixed(2)}
                     Rs
                   </span>
                   <br />

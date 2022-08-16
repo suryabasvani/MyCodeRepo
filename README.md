@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- cart functionality -->
 
 https://www.youtube.com/watch?v=HptuMAUaNGk&t=1870s
+
+react api
+redux-thunk
+redux-saga
