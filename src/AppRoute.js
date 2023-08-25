@@ -20,6 +20,8 @@ import AddNurse from "./features/Admin/Nurses/AddNurse";
 import Pharmacy from "./features/Admin/Pharmacy/Pharmacy";
 import CartList from "./features/Admin/Pharmacy/CartList";
 
+import Reports from "./features/Reports/reports";
+
 function AppRoute(props) {
   const appRoutes = [
     {
@@ -85,6 +87,15 @@ function AppRoute(props) {
             { path: "cart", element: <CartList /> },
           ],
         },
+        {
+          path: "reports",
+          element: <Outlet />,
+          children: [
+            { path: "", element: <Navigate to="list" /> },
+            { path: "list", element: <Reports /> },
+            { path: "cart", element: <CartList /> },
+          ],
+        },
       ],
     },
     {
@@ -136,6 +147,7 @@ function AppRoute(props) {
         },
       ],
     },
+
     {
       path: "",
       element: <Navigate to="/admin" />,
